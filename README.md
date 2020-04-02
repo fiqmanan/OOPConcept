@@ -11,9 +11,9 @@ Polymorphism
 # Version:
 
 Version 1.0
-Polymorphism - Example not based on project
-Inheritane - Example not based on project
+1) Polymorphism - Example not based on project
+2) Inheritane - Example not based on project
 
 Still in progress:
-Polymorphism - Based on the project
-inheritance - Based on the project
+1) Polymorphism - Based on the project
+2) Inheritance - Based on the project
