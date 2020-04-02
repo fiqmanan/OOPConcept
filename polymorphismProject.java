@@ -1,3 +1,22 @@
+/************************************************
+1. *Copyright. For internal Use only
+*
+*FILE: polymorphismProject.java
+*PROJECT:Problem Solving 3
+*Module:1
+*
+*Description:
+*This is polymorphism that apply in PNS
+*
+*Note:
+*
+*Compiler dependencies or special instruction:
+*This project is run using Textpad and compile using java
+*
+*Revision History
+*Date: 2nd April 2019   By: Muhammad Arif Zakwan Bin Zambrozi   Description:This is the intial push
+
+*************************************************/
 import java.util.Scanner;
 import java.util.*;
 import java.util.ArrayList;
