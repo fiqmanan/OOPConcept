@@ -5,8 +5,8 @@ Inheritance
 2) Muhamad Zul Hisyam Bin Abdul Aziz
 
 Polymorphism
-3) Muhammad Syafiq Bin Abdul Manan
-4) Muhammad Arif Zakwan Bin Zambrozi
+1) Muhammad Syafiq Bin Abdul Manan
+2) Muhammad Arif Zakwan Bin Zambrozi
 
 
 Version 1.0
