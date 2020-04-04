@@ -22,7 +22,7 @@ import java.util.Scanner;
 import java.util.*;
 import java.util.ArrayList;
 
-public class UserPersons{
+public class polymorphismProject{
 
 	private static class User{
 		protected String name;
