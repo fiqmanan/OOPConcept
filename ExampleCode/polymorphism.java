@@ -37,14 +37,18 @@ public class polymorphism{
 		//Type Class Display
  		public void type()
  		{  System.out.println( "outdoor game" ); }
-}
+	}
 
-public static void main(String[] args){
-   Game gm = new Game();
-   Cricket ck = new Cricket();
-   gm.type();
-   ck.type();
-   gm=ck;                     //gm refers to Cricket object
-   gm.type();               //calls Cricket's version of type
- }
+	public static void main(String[] args){
+   		Game gm = new Game();
+   		Cricket ck = new Cricket();
+   		gm.type();
+   		ck.type();
+
+   		/*gm refers to Cricket object*/
+   		gm=ck;
+
+   		/*calls Cricket's version of type*/
+   		gm.type();
+	}
 }

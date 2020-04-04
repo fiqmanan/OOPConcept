@@ -19,24 +19,25 @@
 *************************************************/
 public class inheritance{
 
-public static class Teacher {
-   String designation = "Teacher";
-   String collegeName = "Beginnersbook";
+	public static class Teacher {
+   		String designation = "Teacher";
+   		String collegeName = "Beginnersbook";
 
-   void does(){
-	System.out.println("Teaching");}
-}
-
-public static class PhysicsTeacher extends Teacher{
-   String mainSubject = "Physics";
-}
-
-public static void main(String args[]){
-	PhysicsTeacher obj = new PhysicsTeacher();
-	System.out.println(obj.collegeName);
-	System.out.println(obj.designation);
-	System.out.println(obj.mainSubject);
-	obj.does();
+   		void does()
+   		{
+	   		System.out.println("Teaching");
+   		}
 	}
 
+	public static class PhysicsTeacher extends Teacher{
+   		String mainSubject = "Physics";
+	}
+
+	public static void main(String args[]){
+		PhysicsTeacher obj = new PhysicsTeacher();
+		System.out.println(obj.collegeName);
+		System.out.println(obj.designation);
+		System.out.println(obj.mainSubject);
+		obj.does();
+	}
 }
