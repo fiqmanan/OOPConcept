@@ -17,19 +17,29 @@
 *Date: 2nd April 2019   By: Muhammad Syafiq Bin Abdul Manan   Description:This is the intial push
 
 *************************************************/
-class Game{
- public void type()
- {  System.out.println( "Indoor & outdoor" ); }
-}
-
-class Cricket extends Game{
- public void type()
- {  System.out.println( "outdoor game" ); }
-
-
 public class polymorphism{
 
- public static void main(String[] args) {
+  public static class Game{
+
+      	//Constructor
+      	public Game(){}
+
+      	//Type Class Display
+        public void type()
+        {  System.out.println( "Indoor & outdoor" ); }
+  }
+
+   public static class Cricket extends Game{
+
+		//Constructor
+		public Cricket(){}
+
+		//Type Class Display
+ 		public void type()
+ 		{  System.out.println( "outdoor game" ); }
+}
+
+public static void main(String[] args){
    Game gm = new Game();
    Cricket ck = new Cricket();
    gm.type();
@@ -37,6 +47,4 @@ public class polymorphism{
    gm=ck;                     //gm refers to Cricket object
    gm.type();               //calls Cricket's version of type
  }
-}
-
 }
