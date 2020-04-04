@@ -14,7 +14,8 @@
 *This project is run using Textpad and compile using java
 *
 *Revision History
-*Date: 2nd April 2019   By: Muhammad Arif Zakwan Bin Zambrozi   Description:This is the intial push
+*Date: 2nd April 2020   By: Muhammad Arif Zakwan Bin Zambrozi   Description:This is the intial push
+*Date: 4th April 2020	By: Muhammad Syafiq Bin Abdul Manan		Description: Fix The Bugs
 
 *************************************************/
 import java.util.Scanner;
