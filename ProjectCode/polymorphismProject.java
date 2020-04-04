@@ -15,7 +15,7 @@
 *
 *Revision History
 *Date: 2nd April 2020   By: Muhammad Arif Zakwan Bin Zambrozi   Description:This is the intial push
-*Date: 4th April 2020	By: Muhammad Syafiq Bin Abdul Manan		Description: Fix The Bugs
+*Date: 4th April 2020	By: Muhammad Syafiq Bin Abdul Manan		Description: Fix The Bugs & add overriding method
 
 *************************************************/
 import java.util.Scanner;
